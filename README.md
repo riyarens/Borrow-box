@@ -2,410 +2,194 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+BorrowBox 🎯
+Basic Details
 
-## Basic Details
+Project Name: BorrowBox
+Team Name: Lunaria Annua
 
-### Team Name: [Name]
+Team Members
 
-### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+Riya Rens – Jyothi Engineering College, Thrissur
 
-### Hosted Project Link
-[mention your project hosted link here]
+Anjaly PS – Jyothi Engineering College, Thrissur
 
-### Project Description
-[2-3 lines about what your project does]
+Hosted Project Link
 
-### The Problem statement
-[What problem are you solving?]
+[Add your deployed link here]
 
-### The Solution
-[How are you solving it?]
+Project Description
 
----
+BorrowBox is a campus-focused web application that allows students to borrow, lend, sell, and report lost or found items in one place.
+The system also includes a chat feature that enables users to communicate directly with sellers or lenders, making coordination easier and faster.
 
-## Technical Details
+The Problem Statement
 
-### Technologies/Components Used
+Students often face problems such as:
 
-**For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+Losing items on campus with no proper recovery system
 
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+Buying items they only need temporarily
 
----
+Difficulty finding a trusted platform to sell unused items
 
-## Features
+Existing methods like WhatsApp groups or notice boards are unorganized and inefficient.
 
-List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+The Solution
 
----
+BorrowBox provides:
 
-## Implementation
+A centralized platform to borrow and lend items
 
-### For Software:
+A buy/sell marketplace
 
-#### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
+A lost and found reporting system
 
-#### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
-```
+A chat system for direct communication between users
 
-### For Hardware:
+Secure authentication using Firebase
 
-#### Components Required
-[List all components needed with specifications]
+Real-time data storage using Firestore
 
-#### Circuit Setup
-[Explain how to set up the circuit]
+Technical Details
+Technologies/Components Used
+For Software
 
----
+Languages used
 
-## Project Documentation
+JavaScript
 
-### For Software:
+HTML
 
-#### Screenshots (Add at least 3)
+CSS
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+Frameworks used
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+React
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+Libraries/Services used
 
-#### Diagrams
+Firebase Authentication
 
-**System Architecture:**
+Firebase Firestore
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+Tools used
 
-**Application Workflow:**
+VS Code
 
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
+Git & GitHub
 
----
+Firebase Console
 
-### For Hardware:
+Features
 
-#### Schematic & Circuit
+User authentication (Google / Email login)
 
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+Add items for borrowing or selling
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+Lost and Found reporting
 
-#### Build Photos
+Real-time item updates
 
-![Team](Add photo of your team here)
+Chat system to communicate with sellers
 
-![Components](Add photo of your components here)
-*List out all components shown*
+Implementation
+Installation
+npm install
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+Run
+npm start
 
-![Final](Add photo of final product here)
-*Explain the final build*
+Project Documentation
+Screenshots
 
----
+(Add screenshots after completing UI)
 
-## Additional Documentation
+Screenshot 1: Homepage
+Shows dashboard and navigation.
 
-### For Web Projects with Backend:
+Screenshot 2: Add Item Page
+Shows posting of items for borrowing or selling.
 
-#### API Documentation
+Screenshot 3: Chat System
+Shows communication between buyer and seller.
 
-**Base URL:** `https://api.yourproject.com`
+System Architecture
 
-##### Endpoints
+User → React Frontend → Firebase Authentication
+↓
+Firestore Database
+↓
+Chat Messages
 
-**GET /api/endpoint**
-- **Description:** [What it does]
-- **Parameters:**
-  - `param1` (string): [Description]
-  - `param2` (integer): [Description]
-- **Response:**
-```json
-{
-  "status": "success",
-  "data": {}
-}
-```
-
-**POST /api/endpoint**
-- **Description:** [What it does]
-- **Request Body:**
-```json
-{
-  "field1": "value1",
-  "field2": "value2"
-}
-```
-- **Response:**
-```json
-{
-  "status": "success",
-  "message": "Operation completed"
-}
-```
+Explanation
 
-[Add more endpoints as needed...]
+React handles UI
 
----
+Firebase Authentication handles login
 
-### For Mobile Apps:
+Firestore stores items and messages
 
-#### App Flow Diagram
+Application Workflow
 
-![App Flow](docs/app-flow.png)
-*Explain the user flow through your application*
+User logs in
 
-#### Installation Guide
+User browses or posts items
 
-**For Android (APK):**
-1. Download the APK from [Release Link]
-2. Enable "Install from Unknown Sources" in your device settings:
-   - Go to Settings > Security
-   - Enable "Unknown Sources"
-3. Open the downloaded APK file
-4. Follow the installation prompts
-5. Open the app and enjoy!
+Data is saved in Firestore
 
-**For iOS (IPA) - TestFlight:**
-1. Download TestFlight from the App Store
-2. Open this TestFlight link: [Your TestFlight Link]
-3. Click "Install" or "Accept"
-4. Wait for the app to install
-5. Open the app from your home screen
+Users communicate through chat
 
-**Building from Source:**
-```bash
-# For Android
-flutter build apk
-# or
-./gradlew assembleDebug
+Project Demo
 
-# For iOS
-flutter build ios
-# or
-xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
-```
+Video Link:
+[Add demo video link here]
 
----
+Video demonstrates:
 
-### For Hardware Projects:
+Login process
 
-#### Bill of Materials (BOM)
+Posting an item
 
-| Component | Quantity | Specifications | Price | Link/Source |
-|-----------|----------|----------------|-------|-------------|
-| Arduino Uno | 1 | ATmega328P, 16MHz | ₹450 | [Link] |
-| LED | 5 | Red, 5mm, 20mA | ₹5 each | [Link] |
-| Resistor | 5 | 220Ω, 1/4W | ₹1 each | [Link] |
-| Breadboard | 1 | 830 points | ₹100 | [Link] |
-| Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
-| [Add more...] | | | | |
+Chatting with seller
 
-**Total Estimated Cost:** ₹[Amount]
+AI Tools Used
 
-#### Assembly Instructions
-
-**Step 1: Prepare Components**
-1. Gather all components listed in the BOM
-2. Check component specifications
-3. Prepare your workspace
-![Step 1](images/assembly-step1.jpg)
-*Caption: All components laid out*
-
-**Step 2: Build the Power Supply**
-1. Connect the power rails on the breadboard
-2. Connect Arduino 5V to breadboard positive rail
-3. Connect Arduino GND to breadboard negative rail
-![Step 2](images/assembly-step2.jpg)
-*Caption: Power connections completed*
-
-**Step 3: Add Components**
-1. Place LEDs on breadboard
-2. Connect resistors in series with LEDs
-3. Connect LED cathodes to GND
-4. Connect LED anodes to Arduino digital pins (2-6)
-![Step 3](images/assembly-step3.jpg)
-*Caption: LED circuit assembled*
-
-**Step 4: [Continue for all steps...]**
-
-**Final Assembly:**
-![Final Build](images/final-build.jpg)
-*Caption: Completed project ready for testing*
-
----
-
-### For Scripts/CLI Tools:
-
-#### Command Reference
-
-**Basic Usage:**
-```bash
-python script.py [options] [arguments]
-```
-
-**Available Commands:**
-- `command1 [args]` - Description of what command1 does
-- `command2 [args]` - Description of what command2 does
-- `command3 [args]` - Description of what command3 does
-
-**Options:**
-- `-h, --help` - Show help message and exit
-- `-v, --verbose` - Enable verbose output
-- `-o, --output FILE` - Specify output file path
-- `-c, --config FILE` - Specify configuration file
-- `--version` - Show version information
+Tool Used: ChatGPT
 
-**Examples:**
-
-```bash
-# Example 1: Basic usage
-python script.py input.txt
+Purpose
 
-# Example 2: With verbose output
-python script.py -v input.txt
-
-# Example 3: Specify output file
-python script.py -o output.txt input.txt
+UI suggestions
 
-# Example 4: Using configuration
-python script.py -c config.json --verbose input.txt
-```
+Debugging help
 
-#### Demo Output
+Code structure guidance
 
-**Example 1: Basic Processing**
+Human Contributions
 
-**Input:**
-```
-This is a sample input file
-with multiple lines of text
-for demonstration purposes
-```
+Architecture design
 
-**Command:**
-```bash
-python script.py sample.txt
-```
+UI development
 
-**Output:**
-```
-Processing: sample.txt
-Lines processed: 3
-Characters counted: 86
-Status: Success
-Output saved to: output.txt
-```
+Firebase integration
 
-**Example 2: Advanced Usage**
+Testing
 
-**Input:**
-```json
-{
-  "name": "test",
-  "value": 123
-}
-```
+Team Contributions
 
-**Command:**
-```bash
-python script.py -v --format json data.json
-```
+Riya Rens
 
-**Output:**
-```
-[VERBOSE] Loading configuration...
-[VERBOSE] Parsing JSON input...
-[VERBOSE] Processing data...
-{
-  "status": "success",
-  "processed": true,
-  "result": {
-    "name": "test",
-    "value": 123,
-    "timestamp": "2024-02-07T10:30:00"
-  }
-}
-[VERBOSE] Operation completed in 0.23s
-```
+Frontend development
 
----
+Firebase integration
 
-## Project Demo
+Anjaly PS
 
-### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+UI design
 
-*Explain what the video demonstrates - key features, user flow, technical highlights*
+Testing
 
-### Additional Demos
-[Add any extra demo materials/links - Live site, APK download, online demo, etc.]
-
----
-
-## AI Tools Used (Optional - For Transparency Bonus)
-
-If you used AI tools during development, document them here for transparency:
-
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
-
-**Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
-
-**Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
-- "Optimize this database query for better performance"
-
-**Percentage of AI-generated code:** [Approximately X%]
-
-**Human Contributions:**
-- Architecture design and planning
-- Custom business logic implementation
-- Integration and testing
-- UI/UX design decisions
-
-*Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
-
----
-
-## Team Contributions
-
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
-
----
-
+Documentation
 ## License
 
 This project is licensed under the [LICENSE_NAME] License - see the [LICENSE](LICENSE) file for details.
