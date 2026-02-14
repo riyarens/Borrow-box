@@ -191,6 +191,12 @@ Video demonstrates:
 ## License
 
 This project is licensed under the **MIT License**.
+Common License Options:
+
+MIT License (Permissive, widely used)
+Apache 2.0 (Permissive with patent grant)
+GPL v3 (Copyleft, requires derivative works to be open source)
+Made with ❤️ at TinkerHub
 
 ```
 
