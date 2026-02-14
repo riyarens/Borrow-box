@@ -96,12 +96,12 @@ npm run dev
 *(Add screenshots after completing UI)*
  **Screenshot 1: Homepage** - Shows dashboard and navigation<img width="927" height="468" alt="overview png" src="https://github.com/user-attachments/assets/68b03564-c3e1-4894-b62a-e56f60e9461f" />
 
-**Screenshot 2: Marketplace** - shows sales- <img width="936" height="487" alt="markpalce png" src="https://github.com/user-attachments/assets/cc3a7e08-e7fc-4d83-bae9-925a3f139ad6" />
+**Screenshot 2: Marketplace** - shows sales <img width="936" height="487" alt="markpalce png" src="https://github.com/user-attachments/assets/cc3a7e08-e7fc-4d83-bae9-925a3f139ad6" />
 
  **Screenshot 3: Chat System** - Shows communication between buyer and seller<img width="920" height="460" alt="message png" src="https://github.com/user-attachments/assets/1ab9765c-4b8d-4412-b869-d1cddd0353fc" />
- of items for borrowing or selling
 
- **Screenshot 4: Add items** - shows items:-<img width="937" height="482" alt="addfile png" src="https://github.com/user-attachments/assets/6304b5ef-23d4-403a-aff7-bd0030c5e1e5" />
+
+ **Screenshot 4: Add items** - shows items<img width="937" height="482" alt="addfile png" src="https://github.com/user-attachments/assets/6304b5ef-23d4-403a-aff7-bd0030c5e1e5" />
 
 
 ### System Architecture
