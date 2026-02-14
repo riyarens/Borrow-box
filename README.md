@@ -2,198 +2,160 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-BorrowBox 
+# BorrowBox
 
-Basic Details
+## Basic Details
 
-Project Name: BorrowBox
-Team Name: Lunaria Annua
+| Detail | Information |
+|--------|-------------|
+| Project Name | BorrowBox |
+| Team Name | Lunaria Annua |
 
-Team Members
+## Team Members
 
-Riya Rens – Jyothi Engineering College, Thrissur
+- **Riya Rens** – Jyothi Engineering College, Thrissur
+- **Anjaly PS** – Jyothi Engineering College, Thrissur
 
-Anjaly PS – Jyothi Engineering College, Thrissur
-
-Hosted Project Link
+## Hosted Project Link
 
 [Add your deployed link here]
 
-Project Description
+## Project Description
 
-BorrowBox is a campus-focused web application that allows students to borrow, lend, sell, and report lost or found items in one place.
-The system also includes a chat feature that enables users to communicate directly with sellers or lenders, making coordination easier and faster.
+BorrowBox is a campus-focused web application that allows students to borrow, lend, sell, and report lost or found items in one place. The system also includes a chat feature that enables users to communicate directly with sellers or lenders, making coordination easier and faster.
 
-The Problem Statement
+## The Problem Statement
 
 Students often face problems such as:
 
-Losing items on campus with no proper recovery system
+- Losing items on campus with no proper recovery system
+- Buying items they only need temporarily
+- Difficulty finding a trusted platform to sell unused items
+- Existing methods like WhatsApp groups or notice boards are unorganized and inefficient
 
-Buying items they only need temporarily
-
-Difficulty finding a trusted platform to sell unused items
-
-Existing methods like WhatsApp groups or notice boards are unorganized and inefficient.
-
-The Solution
+## The Solution
 
 BorrowBox provides:
 
-A centralized platform to borrow and lend items
+- A centralized platform to borrow and lend items
+- A buy/sell marketplace
+- A lost and found reporting system
+- A chat system for direct communication between users
+- Secure authentication using Firebase
+- Real-time data storage using Firestore
 
-A buy/sell marketplace
+## Technical Details
 
-A lost and found reporting system
+### Technologies/Components Used
 
-A chat system for direct communication between users
+#### For Software
 
-Secure authentication using Firebase
+**Languages Used:**
+- JavaScript
+- HTML
+- CSS
 
-Real-time data storage using Firestore
+**Frameworks Used:**
+- React
 
-Technical Details
-Technologies/Components Used
-For Software
+**Libraries/Services Used:**
+- Firebase Authentication
+- Firebase Firestore
 
-Languages used
+**Tools Used:**
+- VS Code
+- Git & GitHub
+- Firebase Console
 
-JavaScript
+### Features
 
-HTML
+- User authentication (Google / Email login)
+- Add items for borrowing or selling
+- Lost and Found reporting
+- Real-time item updates
+- Chat system to communicate with sellers
 
-CSS
+## Implementation
 
-Frameworks used
+### Installation
 
-React
-
-Libraries/Services used
-
-Firebase Authentication
-
-Firebase Firestore
-
-Tools used
-
-VS Code
-
-Git & GitHub
-
-Firebase Console
-
-Features
-
-User authentication (Google / Email login)
-
-Add items for borrowing or selling
-
-Lost and Found reporting
-
-Real-time item updates
-
-Chat system to communicate with sellers
-
-Implementation
-Installation
+```bash
 npm install
+```
 
-Run
+### Run
+
+```bash
 npm start
+```
 
-Project Documentation
-Screenshots
+## Project Documentation
 
-(Add screenshots after completing UI)
+### Screenshots
 
-Screenshot 1: Homepage
-Shows dashboard and navigation.
+*(Add screenshots after completing UI)*
 
-Screenshot 2: Add Item Page
-Shows posting of items for borrowing or selling.
+- **Screenshot 1: Homepage** - Shows dashboard and navigation
+- **Screenshot 2: Add Item Page** - Shows posting of items for borrowing or selling
+- **Screenshot 3: Chat System** - Shows communication between buyer and seller
 
-Screenshot 3: Chat System
-Shows communication between buyer and seller.
+### System Architecture
 
-System Architecture
-
+```
 User → React Frontend → Firebase Authentication
-↓
-Firestore Database
-↓
-Chat Messages
+         ↓
+    Firestore Database
+         ↓
+    Chat Messages
+```
 
-Explanation
+**Explanation:**
+- React handles UI
+- Firebase Authentication handles login
+- Firestore stores items and messages
 
-React handles UI
+### Application Workflow
 
-Firebase Authentication handles login
+1. User logs in
+2. User browses or posts items
+3. Data is saved in Firestore
+4. Users communicate through chat
 
-Firestore stores items and messages
+## Project Demo
 
-Application Workflow
+**Video Link:** [Add demo video link here]
 
-User logs in
+**Video demonstrates:**
+- Login process
+- Posting an item
+- Chatting with seller
 
-User browses or posts items
+## AI Tools Used
 
-Data is saved in Firestore
+| Tool | Purpose |
+|------|---------|
+| ChatGPT | UI suggestions, Debugging help, Code structure guidance |
 
-Users communicate through chat
+## Human Contributions
 
-Project Demo
+- Architecture design
+- UI development
+- Firebase integration
+- Testing
 
-Video Link:
-[Add demo video link here]
+## Team Contributions
 
-Video demonstrates:
+**Riya Rens**
+- Frontend development
+- Firebase integration
 
-Login process
+**Anjaly PS**
+- UI design
+- Testing
 
-Posting an item
-
-Chatting with seller
-
-AI Tools Used
-
-Tool Used: ChatGPT
-
-Purpose
-
-UI suggestions
-
-Debugging help
-
-Code structure guidance
-
-Human Contributions
-
-Architecture design
-
-UI development
-
-Firebase integration
-
-Testing
-
-Team Contributions
-
-Riya Rens
-
-Frontend development
-
-Firebase integration
-
-Anjaly PS
-
-UI design
-
-Testing
-
-Documentation
 ## License
 
-This project is licensed under the [LICENSE_NAME] License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 **Common License Options:**
 - MIT License (Permissive, widely used)
