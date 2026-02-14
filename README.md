@@ -16,7 +16,7 @@
 - **Anjaly PS** – Jyothi Engineering College, Thrissur  
 
 ## Hosted Project Link
-[Add your deployed link here]
+borrow-box-jade.vercel.app
 
 ---
 
@@ -160,7 +160,7 @@ Video demonstrates:
 
 | Tool    | Purpose                                                 |
 | ------- | ------------------------------------------------------- |
-| ChatGPT | UI suggestions, debugging help, code structure guidance |
+| Gemini | UI suggestions, debugging help, code structure guidance |
 
 ---
 
