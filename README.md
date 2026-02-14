@@ -127,8 +127,10 @@ User → React Frontend → Firebase Authentication
 
 **Video demonstrates:**
 - Login process
+- Borrow or lend an item
 - Posting an item
 - Chatting with seller
+- Report lost or found item
 
 ## AI Tools Used
 
