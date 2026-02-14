@@ -146,13 +146,19 @@ User → React Frontend → Firebase Authentication
 ## Project Demo
 
 **Video Link:**
-[Add demo video link here]
+https://drive.google.com/file/d/1UcOwkH_SRRwLWr44I8eZ2A_SXCgr82un/view?usp=drive_link
 
 Video demonstrates:
 
-* Login process
+* Login and Signup process
 * Posting an item
+* Add products
+* Request product for borrow
+* Add Sales
 * Chatting with seller
+* Lost and Found
+* Complaint Box
+  
 
 ---
 
