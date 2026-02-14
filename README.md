@@ -86,7 +86,7 @@ npm install
 ### Run
 
 ```bash
-npm start
+npm run dev
 ```
 
 ## Project Documentation
@@ -136,7 +136,7 @@ User → React Frontend → Firebase Authentication
 
 | Tool | Purpose |
 |------|---------|
-| ChatGPT | UI suggestions, Debugging help, Code structure guidance |
+| Gemini | UI suggestions, Debugging help, Code structure guidance |
 
 ## Human Contributions
 
